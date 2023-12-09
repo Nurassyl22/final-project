@@ -1,0 +1,28 @@
+@mixin mainBtn {
+    font-size: 24px;
+    font-family: inherit;
+    border-radius: 50px;
+    border: 2px solid var(--violet-600, #7c3aed);
+    background: var(--violet-600, #7c3aed);
+    padding: 20px 24px;
+}
+
+$main-black: #0F172A;
+$main-violet: #7C3AED;
+$secondary-violet:#A78BFA;
+
+@import "./message";
+@import "./plans";
+
+
+*,
+html,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    list-style-type: none;
+}
