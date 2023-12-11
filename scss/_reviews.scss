@@ -1,0 +1,8 @@
+.reviews{
+    background-color: $secondary-gray;
+    padding: 80px;
+    display: grid;
+    grid-template-columns: repeat(12 1fr);
+    grid-template-rows: repeat(6 1fr);
+    
+}

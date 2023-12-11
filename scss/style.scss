@@ -9,10 +9,13 @@
 
 $main-black: #0F172A;
 $main-violet: #7C3AED;
+$main-gray: #475569;
 $secondary-violet:#A78BFA;
+$secondary-gray: #F1F5F9;
 
 @import "./message";
 @import "./plans";
+@import "./reviews";
 
 
 *,
