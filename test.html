@@ -5,13 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Final Project</title>
+    </style>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./assets/icons/cursor-pointer.svg" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
@@ -38,15 +37,18 @@
                         vestibulum eget purus ornare. Risus elit et fringilla habitant ut facilisi.</p>
                 </div>
                 <div class="message-block">
-                    <img src="./assets/ButtomGirl.jpg" alt="gr">
+                    <img src="./assets/ButtomGirl.jpg" alt="girl" width="580px">
                     <div class="message-card">
-                        <div class="card-txt">
+                        <div class="card-txt" style="width: 580px;">
                             <h5>Artist & Investor</h5>
-                            <h3>Enim sagittis, sit porttitor morbi lobortis amet, libero adipiscing auctor. Malesuada
+                            <h4>Enim sagittis, sit porttitor morbi lobortis amet, libero adipiscing auctor. Malesuada
                                 tristique
-                                libero, id netus tincidunt. Egestas ac arcu amet nisl quis est ...</h3>
-                            <a href="#">Read Full Story <div class="arrow"><img src="./assets/icons/arrow-right.svg"
-                                        alt="arrow"></div></a>
+                                libero, id netus tincidunt. Egestas ac arcu amet nisl quis est ...
+                            </h4>
+                            <div class="button">
+                                <a href="#">Read Full Story <div class="arrow"><img src="./assets/icons/arrow-right.svg"
+                                            alt="arrow"></div></a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -73,7 +75,7 @@
                 <div class="plans-body">
                     <div class="img-position">
                         <div class="tablet">
-                            <img src="./assets/Desktop.jpg" alt="tablet">
+                            <img src="./assets/Desktop.jpg" alt="tablet" width="100%">
                         </div>
                         <div class="body-pose">
                             <div class="content-box">
@@ -100,29 +102,131 @@
             </div>
         </section>
 
-        <section class="reviews">
-            <div class="reviews-txt">
-                <h3>No limits</h3>
-                <h1>Unlimited ideas for your projects</h1>
-                <p>Scelerisque auctor dolor diam tortor, fames faucibus non interdum nunc. Ultrices nibh sapien elit
-                    gravida ac, rutrum molestie adipiscing lacinia.</p>
-                <button>Start For Free</button>
+        <section class="review">
+            <div class="review-container">
+                <div class="review-txt">
+                    <h4>No limits</h4>
+                    <h1>Unlimited ideas for your projects</h1>
+                    <p>Scelerisque auctor dolor diam tortor, fames faucibus non interdum nunc. Ultrices nibh sapien elit
+                        gravida ac, rutrum molestie adipiscing lacinia.</p>
+                    <div class="button">
+                        <button>Start For Free</button>
+                    </div>
+                </div>
+                <img src="./assets/Picture(1).png" alt="img" class="img1" width="110%">
+                <img src="./assets/Picture(2).png" alt="img" class="img2" width="450%">
+                <img src="./assets/Picture(3).png" alt="img" class="img3" width="110%">
+                <img src="./assets/Picture(4).png" alt="img" class="img4" width="110%">
+                <img src="./assets/Picture(5).png" alt="img" class="img5" width="135%">
+                <img src="./assets/Picture(6).png" alt="img" class="img6" width="115%">
+                <img src="./assets/Picture(7).png" alt="img" class="img7" width="89%">
+                <img src="./assets/Picture(8).png" alt="img" class="img8" width="120%">
             </div>
-            <div class="review-images">
-                <img src="./assets/Picture1.jpg" alt="" style="color: #475569;">
-                <img src="./assets/Picture2.jpg" alt="" style="color: #475569;">
-                <img src="./assets/Picture3.jpg" alt="" style="color: #475569;">
-                <img src="./assets/Picture4.jpg" alt="" style="color: #475569;">
-                <img src="./assets/Picture5.jpg" alt="" style="color: #475569;">
-                <img src="./assets/Picture6.jpg" alt="" style="color: #475569;">
-                <img src="./assets/Picture7.jpg" alt="" style="color: #475569;">
-            </div>
+            <div class="review-buttom">
 
+            </div>
         </section>
 
-        <footer></footer>
-    </div>
+        <section class="buttom">
+            <h4>Start building ideas</h4>
+            <h1>Brainstorm now!</h1>
+            <p>Malesuada ut aliquam at ac est nisi, interdum etiam dignissim.
+                <br>
+                Risus elit et fringilla habitant ut facilisi.
+            </p>
+            <button class="button">Start For Free</button>
+        </section>
+        
+        <footer>
+            <div class="footer-middle">
+                <div class="footer-list">
+                    <h5>Categories</h5>
+                    <ul>
+                        <li><a href="#">User Interface</a></li>
+                        <li><a href="#">User Experience</a></li>
+                        <li><a href="#">Digital Media</a></li>
+                        <li><a href="#">Lifestyle</a></li>
+                        <li><a href="#">Programming</a></li>
+                        <li><a href="#">Animation</a></li>
+                    </ul>
+                </div>
+    
+                <div class="footer-list">
+                    <h5>Product</h5>
+                    <ul>
+                        <li>Pricing</li>
+                        <li>Overview</li>
+                        <li>Browse</li>
+                        <li>Accessibility</li>
+                        <li>Five</li>
+                    </ul>
+                </div>
+    
+                <div class="footer-list">
+                    <h5>Solutions</h5>
+                    <ul>
+                        <li>Brainstorming</li>
+                        <li>Ideation</li>
+                        <li>Wireframing</li>
+                        <li>Research</li>
+                    </ul>
+                </div>
+    
+                <div class="footer-list">
+                    <h5>Resources</h5>
+                    <ul>
+                        <li>Help Center</li>
+                        <li>Blog</li>
+                        <li>Tutorials</li>
+                    </ul>
+                </div>
+    
+                <div class="footer-list">
+                    <h5>Support</h5>
+                    <ul>
+                        <li>Contact Us</li>
+                        <li>Developers</li>
+                        <li>Documentation</li>
+                        <li>Integrations</li>
+                        <li>Reports</li>
+                        <li>Webinar</li>
+                    </ul>
+                </div>
+    
+                <div class="footer-list">
+                    <h5>Company</h5>
+                    <ul>
+                        <li>About</li>
+                        <li>Press</li>
+                        <li>Events</li>
+                        <li>Careers</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="txt">
+                    <p>@ 2023 Wrapp. All rights reserved</p>
+                </div>
 
+                <div class="links">
+                    <div class="links-txt">
+                        <p><a href="#">Terms</a></p>
+                        <p><a href="#">Privacy</a></p>
+                        <p><a href="#">Contact</a></p>
+                    </div>
+                    <div class="links-brands">
+                        <a href="#"><img src="./assets/icons/youtube.svg" alt="yt"></a>
+                        <a href="#"><img src="./assets/icons/facebook.svg" alt="fb"></a>
+                        <a href="#"><img src="./assets/icons/twitter.svg" alt="tw"></a>
+                        <a href="#"><img src="./assets/icons/instagram.svg" alt="ig"></a>
+                        <a href="#"><img src="./assets/icons/linkedin.svg" alt="in"></a>
+                    </div>
+                    <a href="#"><img src="./assets/icons/App Store - Filled.svg" alt="ip" style="padding: 5px 0px;"></a>
+                </div>
+            </div>
+        </footer>
+    </div>
 </body>
 
 </html>

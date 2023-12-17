@@ -1,8 +1,106 @@
-.reviews{
-    background-color: $secondary-gray;
-    padding: 80px;
-    display: grid;
-    grid-template-columns: repeat(12 1fr);
-    grid-template-rows: repeat(6 1fr);
-    
+.review {
+    &-container {
+        padding: 80px 0px 0px 90px;
+        background-color: $secondary-gray;
+        display: grid;
+        grid-template-columns: repeat(11, 100px);
+        grid-template-rows: repeat(6, 100px);
+
+        .review-txt {
+            display: grid;
+            grid-column: 1 / 6;
+
+            p {
+                margin-top: 32px;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 160%; /* 28.8px */
+            }
+
+            h1 {
+                margin-top: 16px;
+                font-size: 56px;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 110%; /* 61.6px */
+            }
+
+            h4 {
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 100%; /* 20px */
+                letter-spacing: 3px;
+                text-transform: uppercase;
+                color: $main-gray;
+            }
+
+            button {
+                @include mainBtn;
+            }
+        }
+        
+        .img1 {
+            margin-top: 187px;
+            display: grid;
+            grid-row: 5 / 8;
+        }
+
+        .img2 {
+            display: grid;
+            grid-row: 6 / 7;
+            margin-top: 25px;
+            margin-left: 30px;
+        }
+
+        .img3 {
+            display: grid;
+            grid-row: 4 / 5;
+            grid-column: 6 / 7;
+            margin-left: -33px;
+        }
+
+        .img4 {
+            display: grid;
+            grid-row: 3 / 5;
+            grid-column: 7 / 8;
+            margin-top: -5px;
+        }
+
+        .img5 {
+            display: grid;
+            grid-row: -3 / -1;
+            grid-column: -6 / -2;
+            margin-left: -27px;
+            margin-top: -25px;
+        }
+
+        .img6 {
+            display: grid;
+            grid-row: 7 / 8;
+            grid-column: -6 / -5;
+            margin-top: 53px;
+        }
+
+        .img7 {
+            display: grid;
+            grid-row: -6 / -4;
+            grid-column: 8 / 12;
+            margin-left: 30px;
+            margin-top: 70px;
+        }
+
+        .img8 {
+            display: grid;
+            grid-row: -1 / -1;
+            grid-column: -4 / -1;
+            margin-top: 54px;
+            margin-left: -70px;
+        }
+    }
+
+    &-buttom {
+        height: 358px;
+    }
 }
