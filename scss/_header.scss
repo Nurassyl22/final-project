@@ -1,0 +1,75 @@
+.header {
+    padding: 24px 80px 24px 80px;
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+
+        &-list {
+            display: flex;
+            width: 513px;
+            height: 48px;
+            gap: 38px;
+            a {
+                text-decoration: none;
+                background: linear-gradient(to right, #4c1d95, #7c3aed, #4c1d95);
+                background-clip: text; /* Для поддержки вебкитовских браузеров */
+                color: transparent;
+                /* Heading/5 */
+                font-family: Roboto;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 110%; /* 35.2px */
+            }
+
+            .left {
+                display: flex;
+                width: 387px;
+                height: 48px;
+                gap: 16px;
+                padding: 8px 0px 0  0;  
+                a {
+                    color: $main-black;
+                    text-decoration: none;
+                    font-family: Roboto;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 24px; /* 150% */
+                    letter-spacing: 0.5px;
+                }
+            }
+        }
+    }
+
+    .right {
+        display: flex;
+        gap: 16px;
+        a {
+            padding: 12px 8px;
+            margin-right: 16px;
+            text-decoration: none;
+            color: #7c3aed;
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px; /* 150% */
+            letter-spacing: 0.5px;
+        }
+
+        button {
+            margin-top: auto;
+            color: #fff;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px; /* 100% */
+            letter-spacing: 0.5px;
+            background-color: $main-violet;
+            padding: 12px 28px;
+            border-radius: 50px;
+            border: none !important;
+        }
+    }
+}

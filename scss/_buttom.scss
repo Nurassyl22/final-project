@@ -1,8 +1,10 @@
 .buttom {
-    background-image: url('../assets/iPhone.'), url('../assets/iPhone.svg'), url('../assets/iPhone.svg'), url('../assets/iPhone.svg'), url('../assets/iPhone.svg');
+    background-image: url('../assets/Ellipses.png'), url('../assets/Iphones.png');
+    // background-image: url('../assets/iPhone.'), url('../assets/iPhone.svg'), url('../assets/iPhone.svg'), url('../assets/iPhone.svg'), url('../assets/iPhone.svg');
     background-repeat: no-repeat;
-    background-position: 900px, 1120px 60px, 880px 300px, 1100px 318px;
-    background-size: 350px;
+    // background-position: 900px, 1120px 60px, 880px 300px, 1100px 318px;
+    background-size: 350px, 500px;
+    background-position: 0px 100px, 770px 50px;
     height: 436px;
     padding: 80px;
     background-color: $third-violet;

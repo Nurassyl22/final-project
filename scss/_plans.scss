@@ -1,9 +1,10 @@
 .plans {
-    padding: 80px;
+    padding: 80px 80px 11px 80px;
     
     .container-st {
         .plans-header {
             h1 {
+                margin-top: 80px;
                 text-align: center;
                 font-size: 56px;
                 font-style: normal;
@@ -34,6 +35,12 @@
             padding: 16px 32px;
             border-radius: 50px;
             border: 2px solid var(--violet-600, #7c3aed);
+        }
+
+        button:hover{
+            color: #fff;
+            background-color: $main-violet;
+            border: 2px solid var(--black-600, $main-black);
         }
     }
 

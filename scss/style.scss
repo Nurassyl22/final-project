@@ -13,19 +13,20 @@
     box-shadow: 20px 40px 80px 0px rgba(9, 9, 10, 0.2);
 }
 
-$main-black: #0F172A;
-$main-violet: #7C3AED;
+$main-black: #0f172a;
+$main-violet: #7c3aed;
 $main-gray: #475569;
-$secondary-violet:#A78BFA;
-$secondary-gray: #F1F5F9;
-$third-violet: #4C1D95;
+$secondary-violet: #a78bfa;
+$secondary-gray: #f1f5f9;
+$third-violet: #4c1d95;
 
+@import "./hero";
+@import "./header";
 @import "./message";
 @import "./plans";
 @import "./reviews";
 @import "./footer";
 @import "./buttom";
-
 
 *,
 html,
@@ -35,8 +36,18 @@ html,
     margin: 0;
 }
 
+body {
 
+    margin-inline: auto;
+    font-family: Roboto;
 
-li{
+    .bck-ground {
+    background-image: url("../assets/Ellipses1.png"), url("../assets/Ellipses2.png");
+    background-repeat: no-repeat;
+    background-position: 0px 370px, 485px 400px;
+    }
+}
+
+li {
     list-style-type: none;
 }

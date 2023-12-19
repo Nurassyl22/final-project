@@ -35,17 +35,17 @@ footer {
                 li {
                     padding: 12px 0px 12px 0px;
                     color: $main-gray;
-                    /* Body/M */
-                    font-family: Roboto;
-                    font-size: 16px;
-                    font-style: normal;
-                    font-weight: 400;
-                    line-height: 140%; /* 22.4px */
+                    // /* Body/M */
+                    // font-family: Roboto;
+                    // font-size: 16px;
+                    // font-style: normal;
+                    // font-weight: 400;
+                    // line-height: 140%; /* 22.4px */
                 }
 
-                li:hover{
-                    color: $main-black;
-                }
+                // li:hover{
+                //     color: $main-black;
+                // }
             }
         }
     }
@@ -94,6 +94,26 @@ footer {
                 display: flex;
                 gap: 16px;
                 padding: 10px 0px;
+                .yt:hover{
+                        transform: scale(1.15);
+                        transition: 0.7s;
+                }
+                .fb:hover{
+                        transform: scale(1.15);
+                        transition: 0.7s;
+                }
+                .tw:hover{
+                        transform: scale(1.15);
+                        transition: 0.7s;
+                }
+                .ig:hover{
+                        transform: scale(1.15);
+                        transition: 0.7s;
+                }
+                .in:hover{
+                        transform: scale(1.15);
+                        transition: 0.7s;
+                }
             }
         }
     }
