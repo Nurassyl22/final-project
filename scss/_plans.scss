@@ -41,6 +41,11 @@
             color: #fff;
             background-color: $main-violet;
             border: 2px solid var(--black-600, $main-black);
+            transition: 0.3s ease;
+        }
+
+        button:not(:hover){
+            transition: 0.3s ease-out;
         }
     }
 

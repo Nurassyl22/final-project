@@ -116,6 +116,9 @@
   font-weight: 700;
   line-height: 110%; /* 35.2px */
 }
+.header .navbar-list a:hover {
+  color: #4c1d95;
+}
 .header .navbar-list .left {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -135,6 +138,9 @@
   line-height: 24px; /* 150% */
   letter-spacing: 0.5px;
 }
+.header .navbar-list .left a:hover {
+  color: #475569;
+}
 .header .right {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -153,6 +159,9 @@
   line-height: 24px; /* 150% */
   letter-spacing: 0.5px;
 }
+.header .right a:hover {
+  color: #4c1d95;
+}
 .header .right button {
   margin-top: auto;
   color: #fff;
@@ -165,6 +174,19 @@
   padding: 12px 28px;
   border-radius: 50px;
   border: none !important;
+}
+.header .right button:hover {
+  color: #4c1d95;
+  background-color: #a78bfa;
+  -webkit-transform: scale(1.5s);
+      -ms-transform: scale(1.5s);
+          transform: scale(1.5s);
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+.header .right button:not(:hover) {
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
 }
 
 .message .container-st {
@@ -203,6 +225,7 @@
   background: #4c1d95;
 }
 .message .container-st .team-idea .team-text h4 {
+  margin: 40px 40px 0px 40px;
   color: #a78bfa;
   font-family: Roboto;
   font-size: 20px;
@@ -213,6 +236,7 @@
   text-transform: uppercase;
 }
 .message .container-st .team-idea .team-text h1 {
+  margin: 16px 40px 0px 40px;
   color: #fff;
   font-family: Roboto;
   font-size: 56px;
@@ -221,6 +245,7 @@
   line-height: 110%; /* 61.6px */
 }
 .message .container-st .team-idea .team-text p {
+  margin: 32px 40px 0 40px;
   color: #fff;
   font-family: Roboto;
   font-size: 18px;
@@ -242,6 +267,17 @@
   border: none !important;
   -webkit-box-shadow: 20px 40px 80px 0px rgba(9, 9, 10, 0.2);
           box-shadow: 20px 40px 80px 0px rgba(9, 9, 10, 0.2);
+  margin: 32px 40px 40px 40px;
+}
+.message .container-st .team-idea button:hover {
+  color: #0f172a;
+  background-color: #fff;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.message .container-st .team-idea button:not(:hover) {
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
 }
 .message .container-nd {
   padding: 80px 80px 80px 60px;
@@ -326,19 +362,33 @@
 }
 .message .container-nd .message-card .card-txt .button a:hover {
   color: #7c3aed;
+  -webkit-transform: scale(1.15);
+      -ms-transform: scale(1.15);
+          transform: scale(1.15);
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  margin-left: 40px;
+}
+.message .container-nd .message-card .card-txt .button a:hover .arrow {
+  -webkit-transform: scale(1.15);
+      -ms-transform: scale(1.15);
+          transform: scale(1.15);
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+.message .container-nd .message-card .card-txt .button a:not(:hover) {
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+.message .container-nd .message-card .card-txt .button a:not(:hover) .arrow {
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
 }
 .message .container-nd .message-card .card-txt .button .arrow {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-left: 16px;
-}
-.message .container-nd .message-card .card-txt .button .arrow:hover {
-  -webkit-transform: scale(1.15);
-      -ms-transform: scale(1.15);
-          transform: scale(1.15);
-  -webkit-transition: 0.7s;
-  transition: 0.7s;
 }
 
 .list-img {
@@ -399,6 +449,12 @@
   color: #fff;
   background-color: #7c3aed;
   border: 2px solid var(--black-600, #0f172a);
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+.plans .container-st button:not(:hover) {
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
 }
 .plans-body {
   margin-top: 80px;
@@ -711,10 +767,18 @@ footer .footer-bottom .links-brands .yt:hover {
   -webkit-transition: 0.7s;
   transition: 0.7s;
 }
+footer .footer-bottom .links-brands .yt:not(:hover) {
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
 footer .footer-bottom .links-brands .fb:hover {
   -webkit-transform: scale(1.15);
       -ms-transform: scale(1.15);
           transform: scale(1.15);
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+footer .footer-bottom .links-brands .fb:not(:hover) {
   -webkit-transition: 0.7s;
   transition: 0.7s;
 }
@@ -725,6 +789,10 @@ footer .footer-bottom .links-brands .tw:hover {
   -webkit-transition: 0.7s;
   transition: 0.7s;
 }
+footer .footer-bottom .links-brands .tw:not(:hover) {
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
 footer .footer-bottom .links-brands .ig:hover {
   -webkit-transform: scale(1.15);
       -ms-transform: scale(1.15);
@@ -732,10 +800,18 @@ footer .footer-bottom .links-brands .ig:hover {
   -webkit-transition: 0.7s;
   transition: 0.7s;
 }
+footer .footer-bottom .links-brands .ig:not(:hover) {
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
 footer .footer-bottom .links-brands .in:hover {
   -webkit-transform: scale(1.15);
       -ms-transform: scale(1.15);
           transform: scale(1.15);
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+footer .footer-bottom .links-brands .in:not(:hover) {
   -webkit-transition: 0.7s;
   transition: 0.7s;
 }

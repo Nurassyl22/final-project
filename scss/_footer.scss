@@ -98,20 +98,35 @@ footer {
                         transform: scale(1.15);
                         transition: 0.7s;
                 }
+                .yt:not(:hover){
+                        transition: 0.7s;
+                }
                 .fb:hover{
                         transform: scale(1.15);
+                        transition: 0.7s;
+                }
+                .fb:not(:hover){
                         transition: 0.7s;
                 }
                 .tw:hover{
                         transform: scale(1.15);
                         transition: 0.7s;
                 }
+                .tw:not(:hover){
+                        transition: 0.7s;
+                }
                 .ig:hover{
                         transform: scale(1.15);
                         transition: 0.7s;
                 }
+                .ig:not(:hover){
+                        transition: 0.7s;
+                }
                 .in:hover{
                         transform: scale(1.15);
+                        transition: 0.7s;
+                }
+                .in:not(:hover){
                         transition: 0.7s;
                 }
             }

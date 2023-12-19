@@ -22,6 +22,10 @@
                 line-height: 110%; /* 35.2px */
             }
 
+            a:hover{
+                color: $third-violet;
+            }
+
             .left {
                 display: flex;
                 width: 387px;
@@ -37,6 +41,10 @@
                     font-weight: 500;
                     line-height: 24px; /* 150% */
                     letter-spacing: 0.5px;
+                }
+
+                a:hover{
+                    color: $main-gray;
                 }
             }
         }
@@ -58,6 +66,10 @@
             letter-spacing: 0.5px;
         }
 
+        a:hover{
+            color: $third-violet;
+        }
+
         button {
             margin-top: auto;
             color: #fff;
@@ -70,6 +82,17 @@
             padding: 12px 28px;
             border-radius: 50px;
             border: none !important;
+        }
+
+        button:hover{
+            color: $third-violet;
+            background-color: $secondary-violet;
+            transform: scale(1.5s);
+            transition: 0.3s ease;
+        }
+
+        button:not(:hover){
+            transition: 0.3s ease-out;
         }
     }
 }

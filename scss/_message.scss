@@ -7,7 +7,7 @@
             minmax(100px, 1fr)
         ); /* Пример значения, уточните его в зависимости от ваших потребностей */
         gap: 10px; /* Пример значения */
-        
+
         .pic1 {
             display: grid;
             grid-column: 1 / 6;
@@ -42,6 +42,7 @@
                 // padding: 80px;
                 background: $third-violet;
                 h4 {
+                    margin: 40px 40px 0px 40px;
                     color: $secondary-violet;
                     font-family: Roboto;
                     font-size: 20px;
@@ -53,6 +54,7 @@
                 }
 
                 h1 {
+                    margin: 16px 40px 0px 40px;
                     color: #fff;
                     font-family: Roboto;
                     font-size: 56px;
@@ -62,6 +64,7 @@
                 }
 
                 p {
+                    margin: 32px 40px 0 40px;
                     color: #fff;
                     font-family: Roboto;
                     font-size: 18px;
@@ -72,6 +75,16 @@
             }
             button {
                 @include mainBtn;
+                margin: 32px 40px 40px 40px;
+            }
+
+            button:hover {
+                color: $main-black;
+                background-color: #fff;
+                transition: all 0.5s ease;
+            }
+            button:not(:hover) {
+                transition: all 0.5s ease-out;
             }
         }
     }
@@ -152,16 +165,23 @@
 
                     a:hover {
                         color: $main-violet;
+                        transform: scale(1.15);
+                        transition: 0.7s;
+                        margin-left: 40px;
+                        .arrow {
+                            transform: scale(1.15);
+                            transition: 0.7s;
+                        }
                     }
-
+                    a:not(:hover) {
+                        transition: 0.7s;;
+                        .arrow {
+                            transition: 0.7s;
+                        }
+                    }
                     .arrow {
                         display: flex;
                         margin-left: 16px;
-                    }
-
-                    .arrow:hover {
-                        transform: scale(1.15);
-                        transition: 0.7s;
                     }
                 }
             }
